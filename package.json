@@ -1,9 +1,32 @@
 {
-  "name": "unnamed",
-  "title": "unnamed",
-  "id": "jid1-R4hWUn73guKfNg",
-  "description": "a very basic add-on",
-  "author": "mediocrity",
-  "license": "MPL 2.0",
-  "version": "0.1"
+    "name": "unnamed",
+    "title": "unnamed",
+    "id": "jid1-R4hWUn73guKfNg",
+    "description": "a very basic add-on",
+    "author": "mediocrity",
+    "license": "MPL 2.0",
+    "version": "0.1",
+
+    "preferences": [{
+        "name": "bind",
+        "title": "Bind search bar",
+        "description": "Key sequence fo the binding search bars",
+        "type": "string",
+        "value": "alt-shift-d"
+    },
+                   {
+        "name": "goto",
+        "title": "Go to",
+        "description": "Key sequence for focusing search bar",
+        "type": "string",
+        "value": "alt-shift-s"
+                   },
+                   {
+        "name": "guess",
+        "title": "Go to guessed",
+                       "description": "Key sequence for focusing guessed search bar",
+        "type": "string",
+        "value": "alt-shift-f"
+    }]
+
 }
