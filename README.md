@@ -1,6 +1,4 @@
-laughing-ironman
+SearchBox Hotkey
 ================
 
-Firefox addon for navigaing search boxes.
-
-This is currently in a very crude state.
+Firefox add-on supplying an hotkey for focusing the topmost search-box on websites.
