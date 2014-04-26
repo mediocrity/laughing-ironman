@@ -17,6 +17,5 @@ function guess_search_bar () {
 
 self.port.on('make_guess', function() {
     var guess = guess_search_bar()
-    console.log(guess);
     guess.focus();
 });
